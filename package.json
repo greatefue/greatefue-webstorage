@@ -1,0 +1,65 @@
+{
+  "name": "greatefue-webstorage",
+  "version": "1.0.0",
+  "description": "A package that encrypt and save/get and decrypt data on web storage",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**\\*.ts\""
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "AUTHORS.txt",
+    "CONTRIBUTING.md",
+    "HISTORY.md"
+  ],
+  "keywords": [
+    "localstorage",
+    "sessionstorage",
+    "webstorage",
+    "websql",
+    "encrypt",
+    "decrypt",
+    "cookie"
+  ],
+  "author": "Great Efue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greatefue/greatefue-webstorage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatefue/greatefue-webstorage.git",
+    "directory": "greatefue-webstorage"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": ""
+  },
+  "homepage": "https://github.com/greatefue/greatefue-webstorage#readme",
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Great Efue",
+      "email": "greatefue@gmail.com",
+      "url": "https://github.com/greatefue"
+    }
+  ],
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.19.0",
+    "crypto-js": "^4.1.1",
+    "rxjs": "^6.6.7",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/node": "^14.14.35",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "eslint": "^7.22.0"
+  }
+}
